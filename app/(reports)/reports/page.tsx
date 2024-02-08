@@ -66,7 +66,7 @@ const ReportPage = () => {
 
   
 
-  const hotelName = "Joshmal Hotel";
+  const hotelName = "Jasmai Hotel";
   const reportStartDate = startDateSW;
   const reportEndDate = endDateSW;
 
@@ -135,7 +135,7 @@ const ReportPage = () => {
             src="/logo/joshmal_logo.png"
             width={50}
             height={50}
-            alt="Joshmal Logo"
+            alt="Jasmai Logo"
           />
         </div>
         <div style={styles.titleSubtitleContainer}>

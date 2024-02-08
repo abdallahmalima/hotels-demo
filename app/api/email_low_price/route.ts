@@ -31,7 +31,7 @@ console.log(payment,payment_less,room_no,user,user_phone)
 
       try {
         const data = await resend.emails.send({
-          from: 'Joshmal Hotels <promo@jasmai.design>',
+          from: 'Jasmai Hotels <promo@jasmai.design>',
           to: reportEmails,
           subject: 'Danger: The room was sold at a lower price 🚀🎉💼',
           react: EmailTemplateLowPrice({payment,payment_less,room_no,user,user_phone}),

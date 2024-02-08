@@ -26,7 +26,7 @@ export async function GET(request: Request) {
   
       try {
         const data = await resend.emails.send({
-          from: 'Joshmal Hotels <promo@jasmai.design>',
+          from: 'Jasmai Hotels <promo@jasmai.design>',
           to:reportEmails,
           subject: 'Revenue Report',
           react: EmailTemplate({roomsData, totalPayments,numberOfClients:clients.length, whenDay:'Yesterday' }),

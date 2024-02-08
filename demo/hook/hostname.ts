@@ -3,8 +3,8 @@ const useHostName = () => {
 
      if (typeof window !== 'undefined') {
         const hostname = window.location.hostname;
-        if(hostname==='joshmal.jasmai.design'){
-            url = 'https://joshmal.jasmai.design'
+        if(hostname==='demo.jasmai.design'){
+            url = 'https://demo.jasmai.design'
         }
      }
 

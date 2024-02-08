@@ -54,7 +54,7 @@ const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
 const lastWeekMondayAndSunday=lastWeekMonday.toLocaleDateString('sw-TZ',options)+"-"+lastWeekSunday.toLocaleDateString('sw-TZ',options)
   return (
     <div style={containerStyle}>
-      <h1 style={titleStyle}>Joshmal Hotels {whenDay}({whenDay=='Yesterday'?yesterdayFormatedDate:lastWeekMondayAndSunday}) Report</h1>
+      <h1 style={titleStyle}>Jasmai Hotels {whenDay}({whenDay=='Yesterday'?yesterdayFormatedDate:lastWeekMondayAndSunday}) Report</h1>
       <p style={reportStyle}>Room Revenue Report:</p>
       <p style={figureStyle}>Revenue:{"  "}<span style={{color: '#FF5252',}}>{`${formattedTotalPayments}/=`}</span></p>
       <p style={figureStyle}>Clients:{"  "}<span style={{color: '#FF5252',}}>{`${numberOfClients}`}</span></p>

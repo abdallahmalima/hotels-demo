@@ -44,7 +44,7 @@ const emailContent = status === 'Rise' ? (
     
   return (
     <div style={containerStyle}>
-      <h1 style={titleStyle}>Joshmal Hotels Business Status</h1>
+      <h1 style={titleStyle}>Jasmai Hotels Business Status</h1>
       <p style={reportStyle}>
       Hey Boss,
       </p>

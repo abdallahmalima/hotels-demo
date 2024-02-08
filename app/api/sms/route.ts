@@ -35,7 +35,7 @@ export async function POST(request: Request) {
             source_addr: source_addr,
             schedule_time: "",
             encoding: 0,
-            message: "Ndugu mteja, Joshmal Hotel tunashukuru kwa maoni yako",
+            message: "Ndugu mteja, Jasmai Hotel tunashukuru kwa maoni yako",
             recipients: [
               {
                 recipient_id: 1,
@@ -59,7 +59,7 @@ export async function POST(request: Request) {
 
       try {
         const data = await resend.emails.send({
-          from: 'Joshmal Hotels <promo@jasmai.design>',
+          from: 'Jasmai Hotels <promo@jasmai.design>',
           to: [email],
           subject: 'Ahsante Mteja!',
           react: EmailTemplate({ firstName: "Malima" }),

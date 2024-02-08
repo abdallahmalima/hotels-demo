@@ -7,8 +7,8 @@ interface SimpleLayoutProps {
 }
 
 export const metadata: Metadata = {
-    title: 'Joshmal Hotels',
-    description: 'Joshmal Hotels'
+    title: 'Jasmai Hotels',
+    description: 'Jasmai Hotels'
 };
 
 export default function SimpleLayout({ children }: SimpleLayoutProps) {

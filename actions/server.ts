@@ -30,7 +30,7 @@ export const sendClientSms= async (formData:any)=>{
             source_addr: source_addr,
             schedule_time: "",
             encoding: 0,
-            message: "Ndugu Mteja, Joshmal Hotel tunashukuru kwa maoni yako!",
+            message: "Ndugu Mteja, Jasmai Hotel tunashukuru kwa maoni yako!",
             recipients: [
               {
                 recipient_id: 1,

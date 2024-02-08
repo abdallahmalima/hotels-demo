@@ -138,7 +138,7 @@ const LandingPage = () => {
                     
                     <div className="mx-4 md:mx-8 mt-0 md:mt-4 text-center">
                         <h1 className="text-6xl font-bold text-gray-900 line-height-2">
-                            <span className="font-light block gradientt-text">Ndugu Mteja,Karibu Joshmal Hotel Toa Maoni</span>
+                            <span className="font-light block gradientt-text">Ndugu Mteja,Karibu Jasmai Hotel Toa Maoni</span>
                         </h1>
                         <p className="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">Tunathamini maoni yako Kwani ndio msingi wa kuboresha huduma zetu</p>
                       
